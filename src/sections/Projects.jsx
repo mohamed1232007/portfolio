@@ -17,6 +17,58 @@ function Projects() {
                         data-aos-delay="400"
                     >
                         <div className="project-info">
+                            <h3>
+                                TechStore OS – Retail & Maintenance Operations
+                                System
+                            </h3>
+                            <div className="tech-tags">
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>MongoDB Atlas</span>
+                                <span>Mongoose</span>
+                                <span>JWT</span>
+                            </div>
+                            <p>
+                                A full-stack management ecosystem and localized
+                                commercial store tailored for retail electronics
+                                and maintenance shops. Built specifically with
+                                an Arabic user interface to serve local business
+                                workflows, featuring dynamic inventory
+                                management via MongoDB, maintenance ticket
+                                tracking, and secure Role-Based Access Control
+                                (RBAC).
+                            </p>
+
+                            <div className="project-links">
+                                <a
+                                    href="https://store-mo-1207.vercel.app/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="btn-sm"
+                                >
+                                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Live Demo
+                                </a>
+                                <a
+                                    href="https://github.com/mohamed1232007/store"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="btn-sm outline"
+                                >
+                                    <i className="fa-brands fa-github"></i>{" "}
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="project-card"
+                        data-aos="fade-up"
+                        data-aos-duration="1500"
+                        data-aos-delay="400"
+                    >
+                        <div className="project-info">
                             <h3>Full-Stack Role-Based Admin Dashboard</h3>
                             <div className="tech-tags">
                                 <span>Node.js</span>
