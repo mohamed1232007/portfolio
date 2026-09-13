@@ -18,6 +18,45 @@ function Projects() {
                     >
                         <div className="project-info">
                             <h3>
+                                QuickPulse – Real-Time Messaging & Support
+                                Platform
+                            </h3>
+
+                            <h3>
+                                <span className="badge-update">
+                                    Currently Under Update
+                                </span>
+                            </h3>
+
+                            <div className="tech-tags">
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>Socket.io</span>
+                                <span>MongoDB</span>
+                                <span>Mongoose</span>
+                                <span>JWT</span>
+                            </div>
+                            <p>
+                                A high-performance real-time chat and customer
+                                support system engineered for low-latency
+                                communication. Features instant bi-directional
+                                messaging powered by WebSockets, secure JWT
+                                cookie authentication with token versioning for
+                                session revocation, an integrated ticketing
+                                system, and a dynamic admin dashboard for active
+                                session management.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        className="project-card"
+                        data-aos="fade-up"
+                        data-aos-duration="1500"
+                        data-aos-delay="400"
+                    >
+                        <div className="project-info">
+                            <h3>
                                 TechStore OS – Retail & Maintenance Operations
                                 System
                             </h3>
