@@ -22,11 +22,6 @@ function Projects() {
                                 Platform
                             </h3>
 
-                            <h3>
-                                <span className="badge-update">
-                                    Currently Under Update
-                                </span>
-                            </h3>
 
                             <div className="tech-tags">
                                 <span>React.js</span>
@@ -47,6 +42,11 @@ function Projects() {
                                 system, and a dynamic admin dashboard for active
                                 session management.
                             </p>
+                            <h3>
+                                <span className="badge-update">
+                                    Currently Under Update
+                                </span>
+                            </h3>
                         </div>
                     </div>
                     <div
