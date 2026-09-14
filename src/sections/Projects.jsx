@@ -1,3 +1,11 @@
+{
+    /* <h3>
+                                <span className="badge-update">
+                                    Currently Under Update
+                                </span>
+                            </h3> */
+}
+
 function Projects() {
     return (
         <>
@@ -22,7 +30,6 @@ function Projects() {
                                 Platform
                             </h3>
 
-
                             <div className="tech-tags">
                                 <span>React.js</span>
                                 <span>Node.js</span>
@@ -42,11 +49,26 @@ function Projects() {
                                 system, and a dynamic admin dashboard for active
                                 session management.
                             </p>
-                            <h3>
-                                <span className="badge-update">
-                                    Currently Under Update
-                                </span>
-                            </h3>
+                            <div className="project-links">
+                                <a
+                                    href="https://quick-pulse-theta.vercel.app/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="btn-sm"
+                                >
+                                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Live Demo
+                                </a>
+                                <a
+                                    href="https://github.com/mohamed1232007/quick-pulse"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="btn-sm outline"
+                                >
+                                    <i className="fa-brands fa-github"></i>{" "}
+                                    Source Code
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div
