@@ -50,7 +50,6 @@ function Navbar() {
         href="#top"
         className="logo"
         data-aos="zoom-in"
-        data-aos-duration="1500"
       >
         Mohamed
       </a>
@@ -58,8 +57,7 @@ function Navbar() {
       <nav
         className={isOpen ? "active" : ""}
         data-aos="fade-down"
-        data-aos-duration="1500"
-        data-aos-delay="300"
+        data-aos-delay="100"
       >
         <a
           href="#top"
@@ -99,15 +97,18 @@ function Navbar() {
         
       </nav>
 
-      <div
+      <button
+        type="button"
         className={`hamburger ${isOpen ? "active" : ""}`}
         id="hamburger"
         onClick={toggleMenu}
+        aria-label="Toggle navigation menu"
+        aria-expanded={isOpen}
       >
         <span></span>
         <span></span>
         <span></span>
-      </div>
+      </button>
     </header>
   );
 }

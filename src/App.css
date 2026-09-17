@@ -161,6 +161,10 @@ nav a.active {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
+    appearance: none;
 }
 
 .hamburger span {
@@ -416,6 +420,32 @@ nav a.active {
     color: white;
 }
 
+.skills-details .boxes .nextjs-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    color: #b74b4b;
+    transition: 0.3s ease;
+}
+
+.skills-details .boxes:hover .nextjs-icon {
+    transform: scale(1.15);
+    color: white;
+}
+
+.skills-details .boxes .tailwind-icon {
+    width: 3.5rem;
+    height: 2.2rem;
+    flex-shrink: 0;
+    color: #b74b4b;
+    transition: 0.3s ease;
+}
+
+.skills-details .boxes:hover .tailwind-icon {
+    transform: scale(1.15);
+    color: white;
+}
+
 .skills-details .boxes .box-info {
     display: flex;
     flex-direction: column;
@@ -514,6 +544,17 @@ nav a.active {
 .btn-sm.outline:hover {
     border-color: #b74b4b;
     color: #b74b4b;
+}
+
+.projects-toggle {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.projects-toggle button {
+    cursor: pointer;
+    font-family: inherit;
 }
 
 /* تنسيقات Glassmorphism الشفافة الموحدة لجميع الكروت */
@@ -707,17 +748,5 @@ footer .text span {
     .footer-icon a {
         margin: 0 0.5rem;
     }
-}
-
-.badge-update {
-  font-size: 1.3rem;
-  background-color: rgba(234, 179, 8, 0.15);
-  color: #eab308;
-  border: 1px solid rgba(234, 179, 8, 0.4);
-  padding: 3px 8px;
-  border-radius: 12px;
-  margin-left: 8px;
-  display: inline-block;
-  vertical-align: middle;
 }
 

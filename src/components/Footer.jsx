@@ -6,23 +6,24 @@ function Footer(){
           <span>&copy; 2026 Mohamed Ibrahim. All rights reserved.</span>
         </div>
         <div className="footer-icon">
-          <a href="https://github.com/mohamed1232007" target="_blank">
+          <a
+            href="https://github.com/mohamed1232007"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
             <i className="fa-brands fa-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/mohamed-ibrahem-201638378?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            href="https://www.linkedin.com/in/mohamed-ibrahem-201638378/"
             target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
           >
             <i className="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="https://discord.com/channels/mohamed12327" target="_blank">
-            <i className="fa-brands fa-discord"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/mohamedibrahem5_7?igsh=OGpnb291dm80eHpm"
-            target="_blank"
-          >
-            <i className="fa-brands fa-instagram"></i>
+          <a href="mailto:mohamedibraim1232007@gmail.com" aria-label="Email">
+            <i className="fa-solid fa-envelope"></i>
           </a>
         </div>
       </footer>

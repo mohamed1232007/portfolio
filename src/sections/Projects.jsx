@@ -1,19 +1,14 @@
-{
-    /* <h3>
-                                <span className="badge-update">
-                                    Currently Under Update
-                                </span>
-                            </h3> */
-}
+import { useState } from "react";
 
 function Projects() {
+    const [showAll, setShowAll] = useState(false);
+
     return (
         <>
             <section className="projects" id="projects">
                 <div
                     className="title"
                     data-aos="fade-up"
-                    data-aos-duration="1200"
                 >
                     <span>My Projects</span>
                 </div>
@@ -21,8 +16,7 @@ function Projects() {
                     <div
                         className="project-card"
                         data-aos="fade-up"
-                        data-aos-duration="1500"
-                        data-aos-delay="400"
+                        data-aos-delay="100"
                     >
                         <div className="project-info">
                             <h3>
@@ -74,8 +68,7 @@ function Projects() {
                     <div
                         className="project-card"
                         data-aos="fade-up"
-                        data-aos-duration="1500"
-                        data-aos-delay="400"
+                        data-aos-delay="100"
                     >
                         <div className="project-info">
                             <h3>
@@ -126,15 +119,14 @@ function Projects() {
                     <div
                         className="project-card"
                         data-aos="fade-up"
-                        data-aos-duration="1500"
-                        data-aos-delay="400"
+                        data-aos-delay="100"
                     >
                         <div className="project-info">
                             <h3>Full-Stack Role-Based Admin Dashboard</h3>
                             <div className="tech-tags">
                                 <span>Node.js</span>
                                 <span>Express.js</span>
-                                <span>MySQL </span>
+                                <span>MySQL</span>
                                 <span>JWT</span>
                                 <span>Bcrypt</span>
                             </div>
@@ -170,8 +162,7 @@ function Projects() {
                     <div
                         className="project-card"
                         data-aos="fade-up"
-                        data-aos-duration="1500"
-                        data-aos-delay="300"
+                        data-aos-delay="100"
                     >
                         <div className="project-info">
                             <h3>Task Management System</h3>
@@ -208,11 +199,12 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+                    {showAll && (
+                    <>
                     <div
                         className="project-card"
                         data-aos="fade-up"
-                        data-aos-duration="1500"
-                        data-aos-delay="200"
+                        data-aos-delay="50"
                     >
                         <div className="project-info">
                             <h3>Advanced E-Commerce Platform</h3>
@@ -251,8 +243,7 @@ function Projects() {
                     <div
                         className="project-card"
                         data-aos="fade-up"
-                        data-aos-duration="1500"
-                        data-aos-delay="400"
+                        data-aos-delay="100"
                     >
                         <div className="project-info">
                             <h3>Store-Tech E-Commerce Platform</h3>
@@ -290,8 +281,7 @@ function Projects() {
                     <div
                         className="project-card"
                         data-aos="fade-up"
-                        data-aos-duration="1500"
-                        data-aos-delay="600"
+                        data-aos-delay="150"
                     >
                         <div className="project-info">
                             <h3>AI Chatbot Application</h3>
@@ -329,8 +319,7 @@ function Projects() {
                     <div
                         className="project-card"
                         data-aos="fade-up"
-                        data-aos-duration="1500"
-                        data-aos-delay="400"
+                        data-aos-delay="100"
                     >
                         <div className="project-info">
                             <h3>Customer Support System</h3>
@@ -365,6 +354,18 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+                    </>
+                    )}
+                </div>
+
+                <div className="projects-toggle" data-aos="fade-up">
+                    <button
+                        type="button"
+                        className="btn-sm outline"
+                        onClick={() => setShowAll((prev) => !prev)}
+                    >
+                        {showAll ? "Show Less" : "Show More Projects"}
+                    </button>
                 </div>
             </section>
         </>

@@ -1,18 +1,16 @@
 import { useState, useEffect, useMemo } from "react";
-import heroImg from "../assets/img/a7860cbbf06f03f750d6d14f3825946b.jpg";
+import heroImg from "../assets/img/mohamed-ibrahim.jpg";
 
 function Hero() {
   const startDownload = () => {
-    window.open("./Mohamed_Ibrahim_CV.pdf", "_blank");
+    window.open(`${import.meta.env.BASE_URL}Mohamed_Ibrahim_CV.pdf`, "_blank");
   };
 
   const words = useMemo(
     () => [
-      "Full Stack Developer",
+      "Full-Stack Developer",
       "Frontend Developer",
       "Backend Developer",
-      "Web Developer",
-      "Web Designer",
     ],
     []
   );
@@ -47,60 +45,52 @@ function Hero() {
 
   return (
     <section className="home" id="top">
-      <div className="home-img" data-aos="zoom-in" data-aos-duration="1500">
-        <img src={heroImg} alt="Profile Image" />
+      <div className="home-img" data-aos="zoom-in">
+        <img src={heroImg} alt="Mohamed Ibrahim" />
       </div>
 
       <div className="home-content">
-        <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+        <h1 data-aos="fade-left" data-aos-delay="200">
           Hi, I'm <span>Mohamed Ibrahim</span>
         </h1>
 
         <h3
           className="typing-text"
           data-aos="fade-right"
-          data-aos-duration="1500"
-          data-aos-delay="900"
+          data-aos-delay="200"
         >
           I'm a <span className="typewriter">{text}</span>
         </h3>
 
-        <p data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1100">
-          Passionate Full-Stack Developer specializing in building scalable web
-          applications with React, Node.js, and modern databases, committed to
-          writing clean, maintainable code and delivering seamless user
-          experiences.
+        <p data-aos="fade-down" data-aos-delay="250">
+          I turn ideas into fast, reliable products — from pixel-perfect
+          interfaces to the APIs and databases running behind them, always
+          with clean code and a great user experience in mind.
         </p>
 
         <div
           className="social-icons"
           data-aos="fade-up"
-          data-aos-duration="1500"
-          data-aos-delay="1500"
+          data-aos-delay="250"
         >
           <a
             href="https://github.com/mohamed1232007"
             target="_blank"
             rel="noreferrer"
+            aria-label="GitHub"
           >
             <i className="fa-brands fa-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/mohamed-ibrahem-201638378?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            href="https://www.linkedin.com/in/mohamed-ibrahem-201638378/"
             target="_blank"
             rel="noreferrer"
+            aria-label="LinkedIn"
           >
             <i className="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="mailto:mohamedibraim1232007@gmail.com">
+          <a href="mailto:mohamedibraim1232007@gmail.com" aria-label="Email">
             <i className="fa-solid fa-envelope"></i>
-          </a>
-          <a
-            href="https://discord.com/channels/mohamed12327"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fa-brands fa-discord"></i>
           </a>
         </div>
 

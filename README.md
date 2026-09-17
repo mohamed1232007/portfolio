@@ -1,16 +1,36 @@
-# React + Vite
+# Mohamed Ibrahim — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website showcasing full-stack projects, technical skills and experience.
 
-Currently, two official plugins are available:
+**Live site:** https://mohamed1232007.github.io/portfolio/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- React 19 + Vite
+- AOS (Animate On Scroll)
+- Font Awesome icons
+- Deployed with GitHub Pages (`gh-pages`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Sections
 
-## Expanding the ESLint configuration
+- **Hero** — introduction and quick links (GitHub, LinkedIn, email, CV download)
+- **Skills** — core technical stack
+- **Projects** — featured full-stack builds with live demo and source code links
+- **About** — short bio
+- **Contact** — direct email contact
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Running locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build & Deploy
+
+```bash
+npm run build
+npm run deploy
+```
+
+`npm run deploy` builds the project and publishes the `dist/` folder to the `gh-pages` branch.

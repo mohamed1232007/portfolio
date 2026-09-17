@@ -2,15 +2,14 @@ function Contact() {
   return (
     <>
       <section className="contact" id="contact">
-        <div className="title" data-aos="fade-up" data-aos-duration="1500">
+        <div className="title" data-aos="fade-up">
           <span>Contact Me</span>
         </div>
         <div className="text">
           <div
             className="topic"
             data-aos="fade-right"
-            data-aos-duration="1500"
-            data-aos-delay="200"
+            data-aos-delay="50"
           >
             Let's Build Something Great Together!
           </div>
@@ -21,8 +20,7 @@ function Contact() {
           <div
             className="button"
             data-aos="zoom-in"
-            data-aos-duration="1500"
-            data-aos-delay="400"
+            data-aos-delay="100"
           >
             <a href="mailto:mohamedibraim1232007@gmail.com" className="btn">
               Let's Chat

@@ -14,7 +14,7 @@ import "./App.css";
 
 function App() {
   useEffect(() => {
-    AOS.init({ offset: 0 });
+    AOS.init({ duration: 1400, once: true, offset: 40 });
   }, []);
   return (
     <div className="app-container">

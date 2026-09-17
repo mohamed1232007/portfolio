@@ -12,14 +12,9 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@tsparticles/react": "^4.3.2",
-    "@tsparticles/slim": "^4.3.2",
     "aos": "^2.3.4",
-    "lucide-react": "^1.33.0",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "react-tsparticles": "^2.12.2",
-    "tsparticles": "^4.3.2"
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
